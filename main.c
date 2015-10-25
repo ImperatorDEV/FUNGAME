@@ -1,11 +1,13 @@
-#include <stdio.h>
+//including the basic libs
+#include <stdio.h> 
 #include <stdlib.h>
 #include <unistd.h>
-
+//defining the functions
 int menu();
 void wuerf();
 void zahlenraten();
 void wurfel(int a);
+//main loop
 int main(void) {
 	LOOP:do {
 		int z;
